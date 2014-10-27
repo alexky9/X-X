@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="jquery.js"></script>
 <title>Documento sin título</title>
 <style type="text/css">
 .h1 {
@@ -28,7 +29,7 @@
   </tr>
   <tr>
     <td colspan="5"><form id="form2" name="form2" method="post" action="">
-      <label for="descripcion">Descripción</label>
+            <label for="descripcion">Descripción</label>
       <textarea name="descripcion" cols="60" rows="3" id="descripcion"></textarea>
     </form></td>
   </tr>
@@ -61,5 +62,17 @@
     <td>&nbsp;</td>
   </tr>
 </table>
+    <script>
+        $(document).ready(function() {
+            
+            $('#guardar').click(function(){
+                
+                var archiv:$("#file").val;
+                var nombre : $("#nombre").val;
+                var descripcion : $("#descripcion").val; 
+                
+            });
+        });
+    </script>
 </body>
 </html>

@@ -16,18 +16,10 @@
 </div>
         <div class="sidebar1">
 <ul class="menu">
-    <li><a href="#">Lotus</a>
-<ul>
-<li><a href="#" id="general">General</a></li>
-<li><a href="#" id="venlot">Ventas</a></li>
-<li><a href="#" id="sametime">Sametime</a></li>
-</ul>
+   <li><a href="#" id="sv">Subir videos</a>
 </li>
-    <li><a href="#" id="ventas">Ventas</a>
+    <li><a href="#" id="eliminar">Eliminar</a>
 </li>
-    <li><a href="#" id="portal">Portal Barmex</a>
-</li>
-    <li><a href="#" id="sv">Subir videos</a>
 </li>
 </ul>
         </div>
