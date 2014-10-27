@@ -16,7 +16,7 @@
     </p>
     <p>
 
-        <input type="password" name='password' placeholder="Contraseña" required> 
+        <input type="password" name='password' id="password" placeholder="Contraseña" required> 
     </p>
     <p>
     <center>  <input type="submit" name="Entrar" id="Acctut" value="Entrar"></center>
@@ -25,10 +25,10 @@
             $(document).ready(function() {
     $('#Acctut').click(function(){
         
-        var nombre = $("#login").val;
-        var contra=$("#password").val;
+        var nombre : $("#login").val;
+        var contra : $("#password").val;
         
-if (nombre == "" && contra ==""){
+if (nombre == ""){
 alert("Muy Bien");
 }
 else

@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="pagina.css"/>
     </head>
     <body>
+        
         <div class="header">
         <h3> Tutoriales Barmex</h3>
         <div class="sidebar2"></div>
@@ -26,9 +27,21 @@
 </li>
     <li><a href="#" id="portal">Portal Barmex</a>
 </li>
-    <li><a href="#" id="login">Login</a>
+    <li><a href="#" id="sv">Subir videos</a>
 </li>
 </ul>
         </div>
+        <h2>
+        <div class="ho" id="ho">
+                <script type="text/javascript">
+                
+$(document).ready(function() {
+    $('#sv').click(function(){
+        $("#ho").load('Subir.jsp');
+    });
+    });
+    </script>
+        </div>
+        </h2>
     </body>
 </html>
