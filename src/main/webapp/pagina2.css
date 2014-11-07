@@ -26,6 +26,17 @@ h3, p {
         padding-right: 25px;
 }
 
+h4,p{
+    color:#4a6ba2;
+    text-align: center;
+    font-size: 12px ;
+}
+
+h5,p{
+    color:#003399;
+    text-align: left;
+    font-size: 12;
+}
 a:link {
 	color: #ADB96E;
 	text-decoration: underline; 
@@ -50,15 +61,17 @@ a:hover, a:active, a:focus {
 }
 
 .sidebar1 {
+        padding-top: 20px;
 	float: left;
 	width: auto;
 	padding-bottom: 10px;
-	height: auto;
+	height: 850px;
        
 }
 .sidebar2 {
+        
 	float: top;
-	width: 1360px;
+	width: auto;
         background: #000;
 	height: 10px;
        

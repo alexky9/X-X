@@ -53,6 +53,7 @@
  
 .log input[type=text]:focus,
 .log input[type=password]:focus,
+.log input[type=button]:focus,
 .log input[type=submit]:focus {
     box-shadow: 
         0 1px 0 rgba(255,255,255,0.2), 
@@ -104,4 +105,22 @@
  
 .no-placeholder .log label {
     display: block;
+}
+
+.log input[type=button] {
+    width: 40%;
+    padding: 4px 3px;
+    background: #003399;    
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 
+        inset 0 1px rgba(255,255,255,0.4), 
+        0 2px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
 }

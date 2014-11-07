@@ -1,7 +1,8 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
- 
+
     <script type="text/javascript" src="jquery.js"></script>
 
 <title>Video Tutoriales Barmex</title>
@@ -11,14 +12,14 @@
 </head>
 <body>
     <div class="header">
-        <h3> Tutoriales Barmex</h3>
+        <img src="src/main/java/videos/mod3.jpg" width="1350px" height="80px"/>
         <div class="sidebar2"></div>
 </div>
         <div class="sidebar1">
 <ul class="menu">
     <li><a href="#">Lotus</a>
 <ul>
-<li><a href="#" id="general">General</a></li>
+    <li><a href="#" onclick="location.href='General.jsp'">General</a></li>
 <li><a href="#" id="venlot">Ventas</a></li>
 <li><a href="#" id="sametime">Sametime</a></li>
 </ul>
@@ -47,13 +48,15 @@
 <li><a href="#" id="traficob">Trafico</a></li>
 </ul>
 </li>
-    <li><a href="#" id="ventas">Ventas</a>
+   <li><a href="#" onclick="location.href='ventas.jsp'">Ventas</a></li>
 </li>
     <li><a href="#" id="bi">BI</a>
 </li>
     <li><a href="#" id="sistran">Sistran</a>
 </li>
     <li><a href="#" id="portal">Portal Barmex</a>
+</li>
+<li><a href="#" id="otros" onclick="location.href='otros.jsp'">Otros</a>
 </li>
 </ul>
         </div>
@@ -62,9 +65,6 @@
 $(document).ready(function() {
     $('#almacen').click(function(){
         $("#cont").load('login.jsp');
-    });
-    $('#ventas').click(function(){
-        $("#cont").load('ventas.jsp');
     });
     $('#ingenieria').click(function(){
         $("#cont").load('login.jsp');
@@ -117,6 +117,7 @@ $(document).ready(function() {
     $('#sistran').click(function(){
         $("#cont").load('login.jsp');
     });
+    
 });
 </script>
         </div>            
